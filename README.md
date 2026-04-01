@@ -5,7 +5,7 @@
 
 Problem set: https://hdlbits.01xz.net/wiki/Main_Page
 
-## Table of contents
+<!-- ## Table of contents
 
 ### 01. Getting Started
 
@@ -53,9 +53,13 @@ Problem set: https://hdlbits.01xz.net/wiki/Main_Page
 
 ##### 04. More Circuits
 
+| Problems                             | Solutions       |
+| :---:                                | :---:           |
+| https://hdlbits.01xz.net/wiki/Rule90 | [01_rule90.v]() |               
+
 ### 04. Verification: Reading Simulations
 
 ### 05. Verification: Writing Testbenches
 
 ### 06. CS450
-
+ -->
