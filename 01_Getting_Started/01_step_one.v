@@ -1,6 +1,6 @@
-// Build a circuit with no inputs and one output.
-// That output should always drive 1 (or logic high).
+// This module drives a constant logic high (1) on the output.
+// No inputs are required for this circuit.
 
 module top_module(output one);
-    assign one = 1'b1;
+  assign one = 1'b1; // '1'b1' represents a single-bit logic high
 endmodule
