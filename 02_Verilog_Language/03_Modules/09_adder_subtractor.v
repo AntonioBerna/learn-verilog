@@ -1,0 +1,32 @@
+// Reference: https://hdlbits.01xz.net/wiki/Module_addsub
+
+module top_module(
+    input [31:0] a,
+    input [31:0] b,
+    input sub,
+    output [31:0] sum
+);
+
+    wire [31:0] b_mod;
+    wire carry;
+
+    assign b_mod = b ^ {32{sub}};
+
+    add16 add_low (
+        .a(a[15:0]),
+        .b(b_mod[15:0]),
+        .cin(sub),
+        .sum(sum[15:0]),
+        .cout(carry)
+    );
+
+    add16 add_high (
+        .a(a[31:16]),
+        .b(b_mod[31:16]),
+        .cin(carry),
+        .sum(sum[31:16]),
+        .cout()
+    );
+
+endmodule
+
