@@ -3,8 +3,6 @@
 > [!WARNING]
 > This repository is unfinished. Keep your expectations low.
 
-Problem set: https://hdlbits.01xz.net/wiki/Main_Page
-
 <!-- ## Table of contents
 
 ### 01. Getting Started
